@@ -15,3 +15,9 @@ rebar3 compile
 chmod +x server-ctl
 ./server-ctl start
 ```
+# Config
+priv/app.config
+```erlang
+{port, 7000},  %% HTTP server Listen port
+{mqtt_node, 'VerneMQ@127.0.0.1'}
+```
