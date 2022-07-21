@@ -2,9 +2,8 @@
 An HTTP API Server for VerneMQ
 
 # NOTE
-if you install VerneMQ from binary package ,  your must find out your VerneMQ which erlang version use,
-https://github.com/vernemq/vernemq/releases
-and download the version of erlang and install
+if you install VerneMQ from binary package ,  your must find out your VerneMQ which erlang version use (https://github.com/vernemq/vernemq/releases)
+and goto https://www.erlang.org/downloads to find the version of Erlang to install.
 
 # Getting Started
 
@@ -16,4 +15,3 @@ rebar3 compile
 chmod +x server-ctl
 ./server-ctl start
 ```
-
